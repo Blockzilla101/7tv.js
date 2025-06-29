@@ -1,0 +1,16 @@
+{
+  "name": "7tv.js",
+  "version": "0.0.1",
+  "description": "7TV API wrapper",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Blockzilla101",
+    "url": "https://github.com/Blockzilla101"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}

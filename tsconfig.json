@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "target": "es2024",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "rootDir": "./src",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./lib",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "stripInternal": true
+  },
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
