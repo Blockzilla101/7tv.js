@@ -1,2 +1,2 @@
 export * from "./SevenTVClient";
-export type * from "./types/index";
+export * from "./types/index";
