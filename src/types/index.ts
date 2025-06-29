@@ -1,2 +1,2 @@
-export * from "./User";
-export * from "./Emote";
+export * from "./User.js";
+export * from "./Emote.js";

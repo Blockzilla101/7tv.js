@@ -1,2 +1,2 @@
-export * from "./SevenTVClient";
-export * from "./types/index";
+export * from "./SevenTVClient.js";
+export * from "./types/index.js";

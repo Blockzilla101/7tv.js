@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ApiUser, UserPlatform } from "../types";
+import { ApiUser, UserPlatform } from "../types/index.js";
 
 const base = "https://7tv.io/v4/gql";
 
@@ -39,7 +39,7 @@ export class GqlClient {
                 userByConnection: ApiUser
             }
         }>(`
-            query UserByConnection($platform: String!, $platformId: String!) {
+            query UserByConnection($platform: Platform!, $platformId: String!) {
                 users {
                     userByConnection(platform: $platform, platformId: $platformId) {
                         id
@@ -61,7 +61,6 @@ export class GqlClient {
         }, {
             headers: {
                 "Content-Type": "application/json",
-                "User-Agent": "7tv.js",
             },
         });
 
